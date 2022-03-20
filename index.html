@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Esercizio 9 HTML</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      li {
+        list-style: none;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      nav > ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li>Navbar</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Link</a></li>
+        <li>
+          <select name="dropdown">
+            <option value="Dropnow">Dropdown</option>
+            <option value="Option 2">Option 2</option>
+            <option value="Option 3">Option 3</option>
+          </select>
+        </li>
+        <li><button type="button" disabled>Disabled</button></li>
+        <li>
+          <label><input type="text" placeholder="Search" /></label>
+        </li>
+        <li><button>Search</button></li>
+      </ul>
+    </nav>
+  </body>
+</html>
